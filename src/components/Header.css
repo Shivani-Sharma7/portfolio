@@ -1,0 +1,27 @@
+/* src/components/Header.css */
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #343a40;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    margin-bottom: 10px;
+  }
+  
+  .header p {
+    font-style: italic;
+    font-size: 16px;
+  }
+
+  .profile-image {
+    width: 200px; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+    border-radius: 50%; /* Creates a rounded shape */
+    margin-bottom: 10px;
+  }
+
+  
+  

@@ -1,0 +1,9 @@
+/* src/components/About.css */
+.about {
+    padding: 0px 50px 0px 50px;
+    background-color: #343a40;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+  

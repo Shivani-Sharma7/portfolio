@@ -2,10 +2,10 @@
 .left-section {
   background-color: #212529;
   color: #ffffff;
-  padding: 0px 50px 0px 50px;
+  padding: 0px 20px 0px 20px; 
   text-align: center;
   height: 100vh;
-  width: 30%;
+  width: 100%; 
   position: sticky;
   top: 0;
   display: flex;
@@ -13,13 +13,20 @@
   justify-content: space-between;
 }
 
+@media (min-width: 768px) {
+  .left-section {
+    padding: 0px 50px 0px 50px; 
+    width: 30%;
+  }
+}
+
 .section-links {
   margin-top: 10px;
 }
 
 .bar-sign {
-  color: #6c757d; /* Bar sign color */
-  margin-right: 5px; /* Adjust spacing */
+  color: #6c757d;
+  margin-right: 5px;
 }
 
 .section-links a {
@@ -28,11 +35,11 @@
   text-decoration: none;
   margin-bottom: 10px;
   font-size: 16px;
-  transition: color 0.3s; /* Smooth transition effect */
+  transition: color 0.3s;
 }
 
 .section-links a:hover {
-  color: #ffc107; /* Highlight color on hover */
+  color: #ffc107;
 }
 
 .footer {
@@ -43,7 +50,6 @@
   padding-right: 2px;
   font-size: 35px;
 }
-
 
 .footer a {
   color: #ffffff;

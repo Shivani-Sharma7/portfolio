@@ -4,6 +4,14 @@ import './Projects.css';
 
 const projects = [
   {
+    title: 'Scotchiees Restaurant Website (Currently Working)',
+    link: '',
+    skills: ['ReactJS', 'MongoDb', 'Node.js', 'Express,js'],
+    description: [
+      "Scotchiees, a dynamic full-stack software solution, seamlessly integrates an intuitive user interface for customers to browse and order from a diverse menu. Leveraging robust backend systems, it efficiently manages user authentication, real-time menu updates, and secure transactions, providing a delightful and secure online dining experience."
+    ]
+  },
+  {
     title: 'Online Quiz App',
     link: 'https://github.com/Shivani-Sharma7/onlinequizportal',
     skills: ['Python', 'Django', 'CSS', 'HTML5', 'Jinja Templates', 'Django ORM'],

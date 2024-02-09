@@ -1,4 +1,3 @@
-/* src/components/Experience.css */
 .experience {
   padding: 10px 50px 0px 50px;
   background-color: #343a40;
@@ -12,20 +11,20 @@
 }
 
 .experience-item {
-  position: relative; /* Add position relative to allow z-index and box-shadow */
+  position: relative;
   cursor: pointer;
   padding: 10px;
   margin-bottom: 20px;
   border: 1px solid #6c757d;
   border-radius: 5px;
-  transition: box-shadow 0.3s, transform 0.3s; /* Add transition for box-shadow and transform */
+  transition: box-shadow 0.3s, transform 0.3s; 
 }
 
 .experience-item:hover {
-  box-shadow: 0px 5px 5px 0px #f39c12; /* Add box shadow on hover */
-  transform: translateY(-5px); /* Lift the box outward on hover */
+  box-shadow: 0px 5px 5px 0px #f39c12; 
+  transform: translateY(-5px); 
   background-color: black;
-  z-index: 1; /* Ensure that the hovered item is above other items */
+  z-index: 1;
 }
 
 .experience-item h3 {

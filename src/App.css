@@ -1,8 +1,6 @@
-/* src/App.css */
 body {
   margin: 0;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
@@ -13,9 +11,3 @@ body {
   min-height: 100vh;
 }
 
-
-
-
-
-
-/* Add any additional global styles here */

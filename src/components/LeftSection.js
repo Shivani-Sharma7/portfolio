@@ -1,8 +1,9 @@
 // src/components/LeftSection.js
 import React from 'react';
-import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope } from 'react-icons/fa';
+// import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope } from 'react-icons/fa';
 import './LeftSection.css';
 import Header from './Header';
+import Footer from './Footer';
 
 const LeftSection = () => {
   return (
@@ -13,11 +14,12 @@ const LeftSection = () => {
         <span className="bar-sign">|</span> <a href="#experience">Experience</a>
         <span className="bar-sign">|</span> <a href="#project">Projects</a>
       </div>
-      <div className="footer">
+      <Footer></Footer>
+      {/* <div className="footer">
         <a href="https://github.com/Shivani-Sharma7" className='social_site'><FaGithub /></a>
         <a href="https://www.linkedin.com/in/shivani-sharma-3a3a01112/" className='social_site'><FaLinkedin /></a>
         <a href="mailto:Shivani.lpu71096@gmail.com" className='social_site'><FaEnvelope /></a>
-      </div>
+      </div> */}
     </div>
   );
 };

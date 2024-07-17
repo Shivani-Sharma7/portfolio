@@ -4,7 +4,7 @@ import './Projects.css';
 
 const projects = [
   {
-    title: 'Scotchiees Restaurant Website (Currently Working)',
+    title: 'Scotchiees Restaurant Website',
     link: '',
     skills: ['ReactJS', 'MongoDb', 'Node.js', 'Express,js'],
     description: [
@@ -17,14 +17,6 @@ const projects = [
     skills: ['Python', 'Django', 'CSS', 'HTML5', 'Jinja Templates', 'Django ORM'],
     description: [
       "Developed and implemented a user-friendly login and signup page for student registration, streamlining the onboarding process.Implemented a comprehensive quiz feature across multiple modules, providing users with real-time performance feedback on a centralized results page"
-    ]
-  },
-  {
-    title: 'Text Editor App',
-    link: 'https://github.com/Shivani-Sharma7/texteditor',
-    skills: ['ReactJS', 'CSS', 'HTML5', 'Bootstrap'],
-    description: [
-      "Developed interactive, cross browser compatible & responsive UI design to increase user engagement.Created react app where users can craft text, view the site in light & dark mode"
     ]
   }
 ];

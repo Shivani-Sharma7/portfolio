@@ -4,6 +4,15 @@ import './Experience.css'; // Import the CSS file for styling
 
 const experiences = [
   {
+    title: 'Software Engineer For AI Training Data',
+    date: '06/2024 – Present',
+    company: 'Outlier, Remote, Canada',
+    skills: ['Python','SQL'],
+    description: [
+      "Worked on refining AI algorithms and models to improve its accuracy for users.Engaged in continuous learning and improvement activities that kept AI models updated and factual. Developed valuable skills in correcting and analyzing AI models to enhance their effectiveness.",
+    ],
+  },
+  {
     title: 'Technical Lead',
     date: '12/2021 – 07/2022',
     company: 'TradeIndia, Noida, India',
